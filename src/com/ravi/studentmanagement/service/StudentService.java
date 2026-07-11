@@ -29,7 +29,8 @@ public class StudentService {
             System.out.println("No students found");
         } else {
             for (Student student : studentList) {
-                System.out.println(student);
+
+                System.out.println(student.toString());
             }
         }
     }
